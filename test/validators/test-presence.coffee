@@ -10,6 +10,7 @@ describe 'Presence validator tests', ->
 
     it 'Positive test where value exist', (done) ->
         m.name('Some Value')
+        console.log(m);
         options =
             message: 'failed validation'
 
